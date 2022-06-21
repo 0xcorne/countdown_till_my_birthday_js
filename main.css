@@ -1,0 +1,44 @@
+/* 
+Created with passion by Corné Adema / 0xcorne
+GitHub: https://github.com/0xcorne
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background: url(background.jpg) no-repeat center center fixed;
+    background-position: 40% 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+h1 {
+    font-size: 4rem;
+}
+
+.timer_text {
+    margin: 1rem 3.5rem;
+    font-size: 4rem;
+}
+
+.generalEl {
+    text-align: center;
+}
