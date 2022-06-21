@@ -36,5 +36,5 @@ const countdownTimer = () => {
 countdownTimer()
 
 
-// Interval timer, functions gets executed every second or 1000ms
+// Interval timer, function gets executed every second or 1000ms
 setInterval(countdownTimer, 1000)
